@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "pivotal-tracker"
+  s.name = "pivotal-tracker-fox"
   s.version = "0.5.10"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Justin Smestad", "Josh Nichols", "Terence Lee"]
+  s.authors = ["Jeremy Fox", "Justin Smestad", "Josh Nichols", "Terence Lee"]
   s.date = "2012-11-25"
-  s.email = "justin.smestad@gmail.com"
+  s.email = "atljeremy@me.com"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -75,7 +75,7 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/support/stale_fish_fixtures.rb"
   ]
-  s.homepage = "http://github.com/jsmestad/pivotal-tracker"
+  s.homepage = "http://github.com/atljeremy/pivotal-tracker"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "Ruby wrapper for the Pivotal Tracker API"
