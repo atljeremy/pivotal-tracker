@@ -19,6 +19,10 @@ module PivotalTracker
         end
         return story
       end
+      
+      def parse_stories(xml_string)
+        parse(xml_string)
+      end
     end
 
     tag "story"
